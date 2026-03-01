@@ -1,0 +1,42 @@
+# Docker
+.env
+.env.backup
+.env.production
+.env.example
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDEs and Editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+
+# Project Specific
+laravel_project/
+web_project/node_modules/
+web_project/vendor/
+web_project/storage/*.key
+web_project/storage/logs/*.log
+web_project/storage/framework/cache/data/*
+web_project/storage/framework/sessions/*
+web_project/storage/framework/testing/*
+web_project/storage/framework/views/*.php
+web_project/public/storage
+web_project/public/build
+web_project/public/hot
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
